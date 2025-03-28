@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "49Q0I7rITxVdaLbrHpdwOlP89yeR9UCTvDWb27BRGFE=",
+  "Source": "GestionFacturas.WebApi",
+  "BasePath": "_content/GestionFacturas.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

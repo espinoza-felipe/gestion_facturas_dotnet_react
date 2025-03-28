@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GST9HTpdjw8=",
+  "dgSpecHash": "1J2qki8OTrE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\espin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\espin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

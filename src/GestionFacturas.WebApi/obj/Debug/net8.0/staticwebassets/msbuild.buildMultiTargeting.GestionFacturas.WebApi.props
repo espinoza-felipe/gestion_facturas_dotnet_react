@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestionFacturas.WebApi.props" />
+</Project>

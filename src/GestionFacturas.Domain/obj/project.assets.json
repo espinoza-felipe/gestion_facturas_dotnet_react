@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
       "projectName": "GestionFacturas.Domain",
-      "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
+      "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
       "packagesPath": "C:\\Users\\espin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\obj\\",
+      "outputPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\espin\\AppData\\Roaming\\NuGet\\NuGet.Config"

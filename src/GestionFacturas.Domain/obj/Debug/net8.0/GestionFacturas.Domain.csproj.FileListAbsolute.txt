@@ -1,0 +1,12 @@
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\bin\Debug\net8.0\GestionFacturas.Domain.deps.json
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\bin\Debug\net8.0\GestionFacturas.Domain.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\bin\Debug\net8.0\GestionFacturas.Domain.pdb
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.AssemblyInfoInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.AssemblyInfo.cs
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.sourcelink.json
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\refint\GestionFacturas.Domain.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\GestionFacturas.Domain.pdb
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Domain\obj\Debug\net8.0\ref\GestionFacturas.Domain.dll

@@ -1,0 +1,16 @@
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\bin\Debug\net8.0\GestionFacturas.Application.deps.json
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\bin\Debug\net8.0\GestionFacturas.Application.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\bin\Debug\net8.0\GestionFacturas.Application.pdb
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\bin\Debug\net8.0\GestionFacturas.Domain.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\bin\Debug\net8.0\GestionFacturas.Domain.pdb
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.csproj.AssemblyReference.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.AssemblyInfoInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.AssemblyInfo.cs
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.csproj.CoreCompileInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.sourcelink.json
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionF.D26940AB.Up2Date
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\refint\GestionFacturas.Application.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\GestionFacturas.Application.pdb
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.Application\obj\Debug\net8.0\ref\GestionFacturas.Application.dll

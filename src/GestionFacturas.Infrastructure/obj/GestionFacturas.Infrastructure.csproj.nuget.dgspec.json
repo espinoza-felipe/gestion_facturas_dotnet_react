@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj": {}
+    "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj": {
+    "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj",
+        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj",
         "projectName": "GestionFacturas.Application",
-        "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj",
+        "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj",
         "packagesPath": "C:\\Users\\espin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\obj\\",
+        "outputPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\espin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
-                "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj"
+              "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
+                "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
+    "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
         "projectName": "GestionFacturas.Domain",
-        "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
+        "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj",
         "packagesPath": "C:\\Users\\espin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\espin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -124,14 +124,14 @@
         }
       }
     },
-    "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj": {
+    "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
         "projectName": "GestionFacturas.Infrastructure",
-        "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\GestionFacturas.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\espin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\espin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -146,11 +146,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj": {
-                "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj"
+              "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj": {
+                "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Application\\GestionFacturas.Application.csproj"
               },
-              "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
-                "projectPath": "C:\\Users\\espin\\OneDrive\\Escritorio\\Laboral\\Entrevistas\\FinixGroup\\gestion_facturas_dotnet_react\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj"
+              "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj": {
+                "projectPath": "C:\\Users\\espin\\OneDrive\\Documentos\\gestion_facturas_dotnet_react\\src\\GestionFacturas.Domain\\GestionFacturas.Domain.csproj"
               }
             }
           }
@@ -175,6 +175,8 @@
               "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
             },
