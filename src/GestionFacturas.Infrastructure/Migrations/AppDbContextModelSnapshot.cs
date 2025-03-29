@@ -45,15 +45,20 @@ namespace GestionFacturas.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("InvoiceNumber")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("InvoiceNumber")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("IssueDate")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("PaymentDueDate")
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("PaymentStatus")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("INTEGER");
 
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("TEXT");

@@ -1,5 +1,11 @@
 using GestionFacturas.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using GestionFacturas.Infrastructure.DependencyInjection;
+using GestionFacturas.Application.Interfaces;
+using GestionFacturas.Application.Services;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -10,6 +16,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
+builder.Services.AddInfrastructureServices();
+builder.Services.AddScoped<IFacturaImporter, FacturaImporter>();
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -27,6 +40,8 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
+app.MapControllers();
+
 app.MapGet("/weatherforecast", () =>
 {
     var forecast =  Enumerable.Range(1, 5).Select(index =>
@@ -41,6 +56,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+
 
 app.Run();
 
