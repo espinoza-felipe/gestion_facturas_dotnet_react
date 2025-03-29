@@ -165,3 +165,11 @@ C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFact
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.pdb
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.genruntimeconfig.cache
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\ref\GestionFacturas.WebApi.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

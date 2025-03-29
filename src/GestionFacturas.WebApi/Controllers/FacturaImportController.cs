@@ -1,10 +1,12 @@
 using GestionFacturas.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GestionFacturas.WebApi.Controllers;
 
+[Authorize]
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/FacturaImport")]
 public class FacturaImportController : ControllerBase
 {
     private readonly IFacturaImporter _facturaImporter;
