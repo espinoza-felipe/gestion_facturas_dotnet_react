@@ -13,18 +13,26 @@ public class Invoice
     public InvoiceStatus Status { get; private set; }
     public PaymentStatus PaymentStatus { get; private set; }
 
+    // ✅ Relaciones
+    public int CustomerId { get; set; }
+    public Customer Customer { get; set; } = null!;
+
+    public ICollection<InvoiceDetail> Details { get; set; } = new List<InvoiceDetail>();
     public ICollection<CreditNote> CreditNotes { get; set; } = new List<CreditNote>();
+    public Payment? Payment { get; set; }
 
+    // ✅ Constructor
     public Invoice(int invoiceNumber, DateTime issueDate, DateTime paymentDueDate, decimal totalAmount)
-{
-    InvoiceNumber = invoiceNumber;
-    IssueDate = issueDate;
-    PaymentDueDate = paymentDueDate;
-    TotalAmount = totalAmount;
+    {
+        InvoiceNumber = invoiceNumber;
+        IssueDate = issueDate;
+        PaymentDueDate = paymentDueDate;
+        TotalAmount = totalAmount;
 
-    ActualizarEstados();
-}
+        ActualizarEstados();
+    }
 
+    // ✅ Métodos de estado
     public void CalcularEstadoFactura()
     {
         if (CreditNotes == null || !CreditNotes.Any())
@@ -44,16 +52,18 @@ public class Invoice
 
     public void CalcularEstadoPago()
     {
-        if (Status == InvoiceStatus.Cancelled)
+        if (Payment != null)
         {
             PaymentStatus = PaymentStatus.Paid;
-            return;
         }
-
-        if (DateTime.Now < PaymentDueDate)
+        else if (DateTime.Now < PaymentDueDate)
+        {
             PaymentStatus = PaymentStatus.Pending;
+        }
         else
+        {
             PaymentStatus = PaymentStatus.Overdue;
+        }
     }
 
     public void ActualizarEstados()

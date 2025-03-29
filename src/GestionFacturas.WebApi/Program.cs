@@ -2,7 +2,7 @@ using GestionFacturas.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using GestionFacturas.Infrastructure.DependencyInjection;
 using GestionFacturas.Application.Interfaces;
-using GestionFacturas.Application.Services;
+using GestionFacturas.WebApi.Services;
 
 
 

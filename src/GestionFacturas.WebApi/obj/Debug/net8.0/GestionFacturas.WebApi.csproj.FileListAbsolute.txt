@@ -1,3 +1,11 @@
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.csproj.AssemblyReference.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.AssemblyInfoInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.AssemblyInfo.cs
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.sourcelink.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\appsettings.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\GestionFacturas.WebApi.exe
@@ -143,14 +151,6 @@ C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFact
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\GestionFacturas.Application.pdb
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\GestionFacturas.Infrastructure.pdb
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\bin\Debug\net8.0\GestionFacturas.Domain.pdb
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.csproj.AssemblyReference.cache
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.AssemblyInfoInputs.cache
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.AssemblyInfo.cs
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\GestionFacturas.WebApi.sourcelink.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\espin\OneDrive\Documentos\gestion_facturas_dotnet_react\src\GestionFacturas.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.GestionFacturas.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
