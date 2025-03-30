@@ -5,6 +5,7 @@ import ImportPage from './pages/ImportPage';
 import SearchPage from './pages/SearchPage';
 import RequireAuth from './components/RequireAuth';
 import Navbar from './components/Navbar';
+import CreditNoteManagementPage from './pages/CreditNoteManagementPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route element={<RequireAuth />}>
             <Route path="/importar" element={<ImportPage />} />
             <Route path="/buscar" element={<SearchPage />} />
+            <Route path="/credit-notes" element={<CreditNoteManagementPage  />} />
             {/* Aquí puedes agregar más rutas privadas luego */}
           </Route>
         </Routes>

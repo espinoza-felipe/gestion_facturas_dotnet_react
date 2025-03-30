@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import api from '../api/axiosConfig';
+import { Button, Form } from 'react-bootstrap';
+import CreditNotesModal from '../components/CreditNotesModal';
 
 function SearchPage() {
     const [invoiceNumber, setInvoiceNumber] = useState('');
@@ -7,12 +9,22 @@ function SearchPage() {
     const [estadoPago, setEstadoPago] = useState('');
     const [facturas, setFacturas] = useState([]);
     const [error, setError] = useState('');
+    const [showModal, setShowModal] = useState(false);
+    const [selectedCreditNotes, setSelectedCreditNotes] = useState([]);
 
-    // 🔄 Cargar todas las facturas al inicio
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage, setItemsPerPage] = useState(10);
+
+    const totalPages = Math.ceil(facturas.length / itemsPerPage);
+    const paginatedFacturas = facturas.slice(
+        (currentPage - 1) * itemsPerPage,
+        currentPage * itemsPerPage
+    );
+
     useEffect(() => {
         const fetchAll = async () => {
             try {
-                const response = await api.get('/Invoices/status'); // sin filtros = trae todas
+                const response = await api.get('/Invoices/status');
                 setFacturas(response.data);
             } catch (err) {
                 console.error(err);
@@ -39,12 +51,21 @@ function SearchPage() {
                 const response = await api.get(url);
                 setFacturas(response.data);
             }
+
+            setCurrentPage(1);
         } catch (err) {
             console.error(err);
             setFacturas([]);
             setError('No se encontraron facturas con esos filtros.');
         }
     };
+
+    const handleShowModal = (creditNotes) => {
+        setSelectedCreditNotes(creditNotes);
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => setShowModal(false);
 
     return (
         <div className="container">
@@ -96,7 +117,8 @@ function SearchPage() {
                             setEstadoFactura('');
                             setEstadoPago('');
                             setError('');
-                            api.get('/Invoices/status') // recarga todas las facturas
+                            setCurrentPage(1);
+                            api.get('/Invoices/status')
                                 .then(res => setFacturas(res.data))
                                 .catch(() => setFacturas([]));
                         }}
@@ -106,37 +128,99 @@ function SearchPage() {
                 </div>
             </div>
 
-            {/* ✅ Resultados */}
+            {facturas.length > 0 && (
+                <div className="mb-3 d-flex justify-content-between align-items-center">
+                    <Form.Select
+                        style={{ width: 'auto' }}
+                        value={itemsPerPage}
+                        onChange={(e) => {
+                            setItemsPerPage(Number(e.target.value));
+                            setCurrentPage(1);
+                        }}
+                    >
+                        <option value={5}>5 por página</option>
+                        <option value={10}>10 por página</option>
+                        <option value={20}>20 por página</option>
+                    </Form.Select>
+                    <div>Página {currentPage} de {totalPages}</div>
+                </div>
+            )}
+
             {facturas.length > 0 ? (
-                <table className="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Fecha</th>
-                            <th>Cliente</th>
-                            <th>Total</th>
-                            <th>Estado</th>
-                            <th>Pago</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {facturas.map((f) => (
-                            <tr key={f.invoiceNumber}>
-                                <td>{f.invoiceNumber}</td>
-                                <td>{new Date(f.issueDate).toLocaleDateString()}</td>
-                                <td>{f.customer.name}</td>
-                                <td>${f.totalAmount.toFixed(2)}</td>
-                                <td>{f.status}</td>
-                                <td>{f.paymentStatus}</td>
+                <>
+                    <table className="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Fecha</th>
+                                <th>Cliente</th>
+                                <th>Total</th>
+                                <th>Saldo Pendiente</th>
+                                <th>Estado</th>
+                                <th>Pago</th>
+                                <th>Acciones</th>
                             </tr>
-                        ))}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            {paginatedFacturas.map((f) => {
+                                const totalCreditNotes = f.creditNotes?.reduce((sum, nc) => sum + nc.amount, 0) || 0;
+                                const saldoPendiente = f.totalAmount - totalCreditNotes;
+
+                                return (
+                                    <tr key={f.invoiceNumber}>
+                                        <td>{f.invoiceNumber}</td>
+                                        <td>{new Date(f.issueDate).toLocaleDateString()}</td>
+                                        <td>{f.customer.name}</td>
+                                        <td>${f.totalAmount.toFixed(2)}</td>
+                                        <td>${saldoPendiente.toFixed(2)}</td>
+                                        <td>{f.status}</td>
+                                        <td>{f.paymentStatus}</td>
+                                        <td>
+                                            {f.creditNotes?.length > 0 && (
+                                                <Button
+                                                    variant="info"
+                                                    size="sm"
+                                                    onClick={() => handleShowModal(f.creditNotes)}
+                                                >
+                                                    Ver NC
+                                                </Button>
+                                            )}
+                                        </td>
+                                    </tr>
+                                );
+                            })}
+                        </tbody>
+                    </table>
+
+                    <div className="d-flex justify-content-end align-items-center mt-3">
+                        <Button
+                            variant="secondary"
+                            className="me-2"
+                            disabled={currentPage === 1}
+                            onClick={() => setCurrentPage(currentPage - 1)}
+                        >
+                            Anterior
+                        </Button>
+                        <Button
+                            variant="secondary"
+                            disabled={currentPage === totalPages}
+                            onClick={() => setCurrentPage(currentPage + 1)}
+                        >
+                            Siguiente
+                        </Button>
+                    </div>
+                </>
             ) : (
                 <div className="alert alert-warning text-center">
                     {error || 'No hay facturas disponibles.'}
                 </div>
             )}
+
+            <CreditNotesModal
+                show={showModal}
+                handleClose={handleCloseModal}
+                creditNotes={selectedCreditNotes}
+            />
         </div>
     );
 }

@@ -36,7 +36,8 @@ public static class InvoiceMapper
             CreditNotes = invoice.CreditNotes.Select(n => new CreditNoteDto
             {
                 Amount = n.Amount,
-                Reason = n.Reason
+                Reason = n.Reason,
+                CreatedAt = n.CreatedAt
             }).ToList()
         };
     }

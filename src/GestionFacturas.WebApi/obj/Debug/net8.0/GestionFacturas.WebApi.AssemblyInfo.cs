@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionFacturas.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48ce50f76fcbf30a4be2560af752a73788303bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a53d95e70c475b42c6fdc2f2dd4263d46d502c55")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionFacturas.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionFacturas.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

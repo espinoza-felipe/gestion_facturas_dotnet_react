@@ -32,6 +32,9 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/buscar">Buscar Facturas</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/credit-notes">Notas de Crédito</Link>
+                        </li>
                     </ul>
                     <button className="btn btn-outline-light" onClick={handleLogout}>
                         Cerrar sesión

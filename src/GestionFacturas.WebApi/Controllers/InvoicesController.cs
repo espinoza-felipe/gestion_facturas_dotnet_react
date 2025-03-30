@@ -119,7 +119,8 @@ public class InvoicesController : ControllerBase
             CreditNotes = invoice.CreditNotes.Select(c => new CreditNoteDto
             {
                 Amount = c.Amount,
-                Reason = c.Reason
+                Reason = c.Reason,
+                CreatedAt = c.CreatedAt
             }).ToList()
         };
     }

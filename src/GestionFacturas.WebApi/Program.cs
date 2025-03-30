@@ -8,6 +8,7 @@ using GestionFacturas.Infrastructure.DependencyInjection;
 using GestionFacturas.Application.Interfaces;
 using GestionFacturas.WebApi.Services;
 using GestionFacturas.WebApi.Settings;
+using GestionFacturas.Infrastructure.Services;
 
 
 
@@ -76,6 +77,8 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<IFacturaImporter, FacturaImporter>();
+builder.Services.AddScoped<ICreditNoteService, CreditNoteService>();
+
 
 builder.Services.AddCors(options =>
 {
