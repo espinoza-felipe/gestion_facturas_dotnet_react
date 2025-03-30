@@ -52,15 +52,66 @@ Este patrón permite separar responsabilidades en distintas capas para lograr un
 
 ## Instalación
 1. **Clonar el repositorio**
+```
+git clone https://github.com/tu-usuario/gestion-facturas-dotnet-react.git
+cd gestion-facturas-dotnet-react
+```
+2. **Ejecutar backend**
+- 2.1. **Ingresar al proyecto WebApi**
+```
+cd src/GestionFacturas.WebApi
+```
+- 2.2. **Restaurar paquetes**
+```
+dotnet restore
+```
+- 2.3. **Crear la base de datos mediante migraciones**
+```
+dotnet ef database update
+```
+- 2.4. **Ejecutar la API**
+```
+dotnet run
+```
 
+La API estará disponible en:
+```
+https://localhost:5001
+```
+
+Puedes probar los endpoints en:
+```
+https://localhost:5001/swagger
+```
 
 ## Credenciales de prueba
 
 ```txt
 Usuario: "admin"
 Contraseña: "1234" (Texto, NO numerico)
+```
 
 ---
 
+3. **Ejecutar Frontend**
+- 3.1. **Volver a la raíz y entrar al frontend**
+```
+cd ../../facturas-frontend
+```
+- 3.2. **Instalar dependencias**
+```
+npm install
+```
+- 3.3. **Configurar el archivo .env**
+Crea un archivo .env en la carpeta facturas-frontend con este contenido:
+```
+REACT_APP_API_URL=https://localhost:5001/api
+```
+- 3.4. **Levantar la aplicación React**
+```
+npm start
+```
 
+La app abrirá automáticamente en:
+http://localhost:3000
 
