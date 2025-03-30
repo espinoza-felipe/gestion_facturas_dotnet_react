@@ -1,0 +1,152 @@
+{
+    "invoices": [
+      {
+        "invoice_number": 1001,
+        "invoice_date": "2025-03-20",
+        "invoice_status": "issued",
+        "total_amount": 345600,
+        "days_to_due": 15,
+        "payment_due_date": "2025-04-04",
+        "payment_status": "Pending",
+        "invoice_detail": [
+          {
+            "product_name": "Monitor LG 24\"",
+            "unit_price": 86400,
+            "quantity": 4,
+            "subtotal": 345600
+          }
+        ],
+        "invoice_payment": {
+          "payment_method": null,
+          "payment_date": null
+        },
+        "invoice_credit_note": [],
+        "customer": {
+          "customer_run": "12345678-9",
+          "customer_name": "Juan Pérez",
+          "customer_email": "juan.perez@example.com"
+        }
+      },
+      {
+        "invoice_number": 1002,
+        "invoice_date": "2025-03-18",
+        "invoice_status": "partial",
+        "total_amount": 120000,
+        "days_to_due": 10,
+        "payment_due_date": "2025-03-28",
+        "payment_status": "Pending",
+        "invoice_detail": [
+          {
+            "product_name": "Teclado Logitech K120",
+            "unit_price": 120000,
+            "quantity": 1,
+            "subtotal": 120000
+          }
+        ],
+        "invoice_payment": {
+          "payment_method": null,
+          "payment_date": null
+        },
+        "invoice_credit_note": [
+          {
+            "credit_note_number": 8001,
+            "credit_note_date": "2025-03-19",
+            "credit_note_amount": 30000
+          }
+        ],
+        "customer": {
+          "customer_run": "87654321-0",
+          "customer_name": "María López",
+          "customer_email": "maria.lopez@example.com"
+        }
+      },
+      {
+        "invoice_number": 1003,
+        "invoice_date": "2025-03-10",
+        "invoice_status": "canceled",
+        "total_amount": 60000,
+        "days_to_due": 30,
+        "payment_due_date": "2025-04-09",
+        "payment_status": "Pending",
+        "invoice_detail": [
+          {
+            "product_name": "Mouse Microsoft Bluetooth",
+            "unit_price": 60000,
+            "quantity": 1,
+            "subtotal": 60000
+          }
+        ],
+        "invoice_payment": {
+          "payment_method": null,
+          "payment_date": null
+        },
+        "invoice_credit_note": [
+          {
+            "credit_note_number": 8002,
+            "credit_note_date": "2025-03-15",
+            "credit_note_amount": 60000
+          }
+        ],
+        "customer": {
+          "customer_run": "78901234-5",
+          "customer_name": "Carlos Gutiérrez",
+          "customer_email": "carlos.gutierrez@example.com"
+        }
+      },
+      {
+        "invoice_number": 1004,
+        "invoice_date": "2025-03-12",
+        "invoice_status": "issued",
+        "total_amount": 175000,
+        "days_to_due": 20,
+        "payment_due_date": "2025-04-01",
+        "payment_status": "Paid",
+        "invoice_detail": [
+          {
+            "product_name": "Disco duro SSD 512GB",
+            "unit_price": 175000,
+            "quantity": 1,
+            "subtotal": 175000
+          }
+        ],
+        "invoice_payment": {
+          "payment_method": "Credit Card",
+          "payment_date": "2025-03-13"
+        },
+        "invoice_credit_note": [],
+        "customer": {
+          "customer_run": "54321678-1",
+          "customer_name": "Ana Torres",
+          "customer_email": "ana.torres@example.com"
+        }
+      },
+      {
+        "invoice_number": 1005,
+        "invoice_date": "2025-03-15",
+        "invoice_status": "issued",
+        "total_amount": 258000,
+        "days_to_due": 25,
+        "payment_due_date": "2025-04-09",
+        "payment_status": "Pending",
+        "invoice_detail": [
+          {
+            "product_name": "Impresora HP LaserJet",
+            "unit_price": 258000,
+            "quantity": 1,
+            "subtotal": 258000
+          }
+        ],
+        "invoice_payment": {
+          "payment_method": null,
+          "payment_date": null
+        },
+        "invoice_credit_note": [],
+        "customer": {
+          "customer_run": "32109876-3",
+          "customer_name": "Fernando Castillo",
+          "customer_email": "fernando.castillo@example.com"
+        }
+      }
+    ]
+  }
+  

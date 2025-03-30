@@ -32,6 +32,10 @@ namespace GestionFacturas.Infrastructure.Migrations
                     b.Property<int>("InvoiceId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.HasIndex("InvoiceId");

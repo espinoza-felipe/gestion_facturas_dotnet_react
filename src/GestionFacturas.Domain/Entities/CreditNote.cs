@@ -8,4 +8,7 @@ public class CreditNote
     public DateTime CreatedAt { get; set; }
 
     public Invoice? Invoice { get; set; }
+
+    public string Reason { get; set; } = string.Empty;
+
 }
