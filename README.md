@@ -76,12 +76,12 @@ dotnet run
 
 La API estará disponible en:
 ```
-https://localhost:5001
+https://localhost:5144/api
 ```
 
 Puedes probar los endpoints en:
 ```
-https://localhost:5001/swagger
+https://localhost:5144/swagger
 ```
 
 ## Credenciales de prueba
@@ -90,10 +90,14 @@ https://localhost:5001/swagger
 Usuario: "admin"
 Contraseña: "1234" (Texto, NO numerico)
 ```
+- Una vez se inicia sesión, copiar el Token devuelto en la respuesta (Response body)
+- hacer click en "Authorize" en la esquina superior derecha de Swagger
+- en Value poner: Bearer *Token* 
 
 ---
 
 3. **Ejecutar Frontend**
+   **Abrir otra terminal y mantener abierta la ventana de backend**
 - 3.1. **Volver a la raíz y entrar al frontend**
 ```
 cd ../../facturas-frontend
@@ -105,7 +109,7 @@ npm install
 - 3.3. **Configurar el archivo .env**
 Crea un archivo .env en la carpeta facturas-frontend con este contenido:
 ```
-REACT_APP_API_URL=https://localhost:5001/api
+REACT_APP_API_URL=https://localhost:5144/api
 ```
 - 3.4. **Levantar la aplicación React**
 ```
